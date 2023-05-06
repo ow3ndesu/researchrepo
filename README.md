@@ -1,2 +1,2 @@
-# researchreposys
+# researchrepo
 Research Repository System 
