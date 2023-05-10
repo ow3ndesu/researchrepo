@@ -47,7 +47,6 @@ if (isset($_SESSION["admin-auth"])) {
 												<th>Research ID</th>
 												<th>Title</th>
 												<th>Author</th>
-												<th>Quantity</th>
 												<th>Status</th>
 												<th>Action</th>
 											</tr>
@@ -153,15 +152,6 @@ if (isset($_SESSION["admin-auth"])) {
 							</div>
 							<div class="row my-2">
 								<div class="col-md-4 pt-1 pl-lg-4 pr-0">
-									<label for="quantity">Quantity</label>
-									<label class="float-right">:</label>
-								</div>
-								<div class="col-md-8">
-									<input type="number" class="form-control" id="quantity" min="1" required>
-								</div>
-							</div>
-							<div class="row my-2">
-								<div class="col-md-4 pt-1 pl-lg-4 pr-0">
 									<label for="status">Status</label>
 									<label class="float-right">:</label>
 								</div>
@@ -237,15 +227,6 @@ if (isset($_SESSION["admin-auth"])) {
 								</div>
 								<div class="col-md-8">
 									<textarea class="form-control" id="newdescription" minlength="8" required></textarea>
-								</div>
-							</div>
-							<div class="row my-2">
-								<div class="col-md-4 pt-1 pl-lg-4 pr-0">
-									<label for="newquantity">Quantity</label>
-									<label class="float-right">:</label>
-								</div>
-								<div class="col-md-8">
-									<input type="number" class="form-control" id="newquantity" min="1" required>
 								</div>
 							</div>
 							<div class="row my-2">

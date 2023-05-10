@@ -196,7 +196,7 @@ body {
 
 body .page-content {
     margin-top: 110px;
-    background-color: #8ab2e2e5;
+    /* background-color: #8ab2e2e5; */
     padding: 60px;
     border-radius: 23px;
 }
@@ -1271,7 +1271,7 @@ Live Stream Style
 
 .live-stream .hover-effect .live a {
     position: absolute;
-    background-color: rgba(236, 96, 144, 0.9);
+    background-color: #FBC70C ;
     padding: 5px 10px;
     border-radius: 23px;
     color: #fff;
@@ -1293,7 +1293,7 @@ Live Stream Style
 }
 
 .live-stream .hover-effect ul li a {
-    background-color: rgba(236, 96, 144, 0.9);
+    background-color: #FBC70C;
     padding: 5px 10px;
     border-radius: 23px;
     color: #fff;

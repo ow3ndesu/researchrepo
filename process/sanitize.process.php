@@ -25,10 +25,10 @@ class Sanitize extends Database
         return 'SPA%ID' . substr(str_shuffle($str_result), 0, 6);
     }
 
-    public function generateBID()
+    public function generateRID()
     {
         $str_result = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        return 'BOOK000' . substr(str_shuffle($str_result), 0, 6);
+        return 'RESE000' . substr(str_shuffle($str_result), 0, 6);
     }
 
     public function generateSID()
