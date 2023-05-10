@@ -147,7 +147,7 @@ CREATE TABLE `students` (
 
 LOCK TABLES `students` WRITE;
 /*!40000 ALTER TABLE `students` DISABLE KEYS */;
-INSERT INTO `students` VALUES (1,'STUD0003IAVZX',4,'JUAN','PABLO','DELA CRUZ','Pag-Asa','0905985511',1,'10/30/2022'),(3,'STUD000R4PVCS',6,'JON','STARK','SNOW','Winterfell','09067894410',1,'11/03/2022'),(5,'STUD000FCE17D',7,'LUIS','','SAN JUAN','SOMEHEREST.','09123456789',1,'11/26/2022'),(7,'STUD000UCPR37',9,'JUNNIE','ORCHIDS','LUISA','STO DOMINGO','09123456789',1,'11/26/2022'),(8,'STUD0001BJVNF',10,'MEME','','EMAM','SOMEWHERE ST.','09123456789',1,'12/01/2022'),(9,'STUD0000EY4GA',13,'TEST','TEST','TEST','TEST','09123456789',1,'05/05/2023');
+INSERT INTO `students` VALUES (3,'STUD000R4PVCS',6,'JON','STARK','SNOW','Winterfell','09067894410',1,'11/03/2022');
 /*!40000 ALTER TABLE `students` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -178,7 +178,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'@adminacc','test@gmail.com','5b94c55fc69d8d32275862a930ebb46f','@student4-536.jpg','ADMIN','ENABLED','10/19/2022'),(4,'@student2','zidsaadad@gmail.com','2c1ddc2fc774a31cbe18e8b3575d62cc','@student4-536.jpg','STUDENT','ENABLED','10/30/2022'),(6,'@student3','enguerra1111@gmail.com','80ec8e02a3987d28fe68894658400e8c','@student4-536.jpg','STUDENT','ENABLED','11/03/2022'),(7,'@student1','test@gmail.com','fe96821ecf1191932f631d60e620e466','@student4-536.jpg','STUDENT','ENABLED','11/24/2022'),(9,'@student4','test@gmail.com','4d53590c0a24c82a7530d1eeccae9558','@student4-256.png','STUDENT','ENABLED','11/26/2022'),(10,'@student5','test@gmail.com','81778092f0802a496a5990666db10095','@student5-1570.jpg','STUDENT','ENABLED','11/29/2022'),(11,'@student7','test@gmail.com','9888ae92687cfb6e65c31acc7aef0ca8','@student7-1293.jpg','STUDENT','DISABLED','12/01/2022'),(13,'@student9','student909@email.com','6f805ce7b5bb30a4d337cbc216f1f12d','@student9-1535.jpg','STUDENT','ENABLED','05/05/2023'),(19,'@facultyacc2','email@test.com','83e301bbefc78af5a787293864b46b15','-','FACULTY','ENABLED','05/06/2023'),(21,'@student8','student909@email.com','330f2522d1267fcf46faef31280021cd','@student8-1896.jpg','STUDENT','DISABLED','05/06/2023');
+INSERT INTO `users` VALUES (1,'@adminacc','jerickmananghaya1719@gmail.com','5b94c55fc69d8d32275862a930ebb46f','@student4-536.jpg','ADMIN','ENABLED','10/19/2022'),(6,'@student3','jerickmananghaya1719@gmail.com','80ec8e02a3987d28fe68894658400e8c','@student4-536.jpg','STUDENT','ENABLED','11/03/2022'),(19,'@facultyacc2','jerickmananghaya1719@gmail.com','83e301bbefc78af5a787293864b46b15','-','FACULTY','ENABLED','05/06/2023');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -218,4 +218,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-11  5:26:02
+-- Dump completed on 2023-05-11  5:37:08

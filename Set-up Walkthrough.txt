@@ -1,14 +1,19 @@
 1. CHECK YOUR PHP, APACHE, MYSQL SERVERS IF IT IS ALREADY INSTALLED. IF IT IS, CHECK IF IT'S WORKING PROPERLY. LINK: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
-2. EXTRACT THE PROJECT 'librarymanagementsystem.zip' AND PUT IT IN YOUR 'xampp/htdocs' folder.
+2. EXTRACT THE PROJECT 'researchrepo.zip' AND PUT IT IN YOUR 'xampp/htdocs' folder.
 3. RUN APACHE AND MYSQL SERVERS.
 4. OPEN BROWSER AND NAVIGATE TO 'localhost/phpmyadmin'
-5. CREATE A DATABASE NAMED 'RRSdb'
-6. IMPORT SQL FROM 'librarymanagementsystem/database/RRSdb.sql', THIS WILL POPULATE THE TABLES NEEDED FOR THIS PROJECT TO RUN
-7. OPEN A NEW BROWSER TAB AND NAVIGATE TO 'localhost/librarymanagementsystem' OR IN YOUR DEFINED PROJECT ROOT
+5. CREATE A DATABASE NAMED 'researchrepodb'
+6. IMPORT SQL FROM 'researchrepo/database/sql/researchrepodb.sql', THIS WILL POPULATE THE TABLES NEEDED FOR THIS PROJECT TO RUN
+7. OPEN A NEW BROWSER TAB AND NAVIGATE TO 'localhost/researchrepo' OR IN YOUR DEFINED PROJECT ROOT
 
 EVERYTHING SHOULD BE WORKING!
 
 ACCOUNTS
 ADMIN
-admin@email.com SAME WITH PASSWORD
-user@email.com SAME WITH PASSWORD
+@adminacc SAME WITH PASSWORD
+
+FACULTY
+@facultyacc2 SAME WITH PASSWORD
+
+STUDENT
+@student3
