@@ -54,17 +54,6 @@ if (isset($_SESSION["admin-auth"])) {
 										<tbody id="researchesTableBody">
 
 										</tbody>
-										<!-- <tfoot>
-                      <tr>
-                        <th>Research ID</th>
-                        <th>Title</th>
-                        <th>Author</th>
-                        <th>Quantity</th>
-                        <th>Status</th>
-                        <th>Action</th>
-                      </tr>
-                    </tfoot> -->
-										<tbody></tbody>
 									</table>
 								</div>
 							</div>
